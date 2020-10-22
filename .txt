@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>Короткий гайд про HTML</title>
+<meta name="description" content="Теги в HTML. Опис і приклади популярних тегів, як написати сайт за 5 хвилин.">
+<meta name="author" content="Uglyntine">
+<meta name="keywords" content="Теги html, як стати програмістом, Івано-Франківський Ліцей Номер 7">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+<strong>
+<h2>ТЕГ Р</h2>
+</strong>
+<hr>
+<p> можна міняти, якась типу інфа яку можна донести.</p>
+<p> < p >, < /p > </p>
+<p> p Привіт братанчик /p </p>
+<hr>
+<strong>
+<h2>Тег ul</h2>
+</strong>
+<u>
+<p>Маркований список </p>
+</u>
+<small>
+<p> Квадрадний, square, можна багато використовувати типа круглі, трикутні ітп, але я ЛЮБЛЮ КВАДРАТ.</p>
+</small>
+<ul>
+<ul type="square">
+<strong>
+<p>Зразок</p>
+</strong>
+<li>odin</li>
+<li>dva</li>
+<li>tri</li>
+</ul>
+
+<strong>
+<hr>
+<h2>Тег ol</h2>
+</strong>
+<hr>
+<u>
+<p>Нумерований список</p>
+</u>
+<p> ol type="1"</p>
+<p> < ol>, < /ol ></p>
+
+<p>Числа</p>
+<p> Арабські числа (1, 2, 3, ...);</p>
+<p>Латинські букви (A, B, C, ...);</p>
+<p>Строкові латинські букви (a, b, c, ...);</p>
+<p>Прописні римські (I, II, III, ...);</p>
+<p>строчні римські(i, ii, iii, ...).</p>
+
+<ol type="1">
+<p>Зразок</p>
+<li>Один</li>
+<li>Два</li>
+<li>Три</li>
+</ol>
+<hr>
+<strong>
+<h2>Тег IMG</h2>
+</strong>
+<p>Перейдем дальше, можна вставляти картинки через img, але потрібно мати його на пк або посилання на фото.</p>
+<p> img src="шлях до файлу" alt="якийсь текст, типа якшо картина довго грузиться або немає інтернету буде висвічватись."<p>
+<u>
+<p><img src="C:\Users\NOUT\Desktop\sait\WPD4e98sWFg.jpg" alt="Міша в очках"></p>
+</u>
+<p>Також ширину і висоту сображення можна змінювати за допомогою <u><strong>width</strong></u> і <u><strong>height</strong></u></p>
+<p> img src="C:\Users\NOUT\Desktop\sait\WPD4e98sWFg.jpg"width="300" height="300" alt="Міша в очках"</p>
+<p><a href="https://www.instagram.com/_uglyntine/"><img src="C:\Users\NOUT\Desktop\sait\WPD4e98sWFg.jpg" width="300" 
+height="300" alt="Міша в очках"></a></p>
+
+<hr>
+<strong>
+<h2>Тег a</h2>
+</strong>
+<hr>
+
+<p>Тег p, використовується для стволення посилань, в залежності від присутності тегів name і href.</p>
+<p>Тег ставить якір або створує ссилку, якір це типу закладка</p>
+<p>Створим перехід на мій інстаграм</p> 
+<p> a href="URL"><strong>Посилання</strong> a </p>
+<a href="URL">https://www.instagram.com/_uglyntine/</a>
+<p><strong>Доречі, цікава фіча, якщо ви нажмете на мою зменшену фотку, то ви також перейдете до мого інстаграму.</strong></p>
+<p><small>Це зробилось по такому ж коду.</small></p>
+<p> a href="посилання"> i m g src ="де розсташована фотографія, на вашому пк" width="ширина"
+height="висота"alt="Міша в очках" a </p>
+
+</body>
+
+</html>
